@@ -1,0 +1,19 @@
+{
+  "name": "req-ip",
+  "version": "0.0.1",
+  "description": "real client ip",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincentgor/node-request-ip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vincentgor/node-request-ip/issues"
+  },
+  "homepage": "https://github.com/vincentgor/node-request-ip#readme"
+}
