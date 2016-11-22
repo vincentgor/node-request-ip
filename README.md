@@ -4,6 +4,9 @@ real client ip
 ### what it can do
 to use this, you can get the client real ip and then proxy ip list
 
+### future
+support that you can configure whether use proxy server or not
+
 ### such as an example
 ```js
 'use strict';
@@ -57,6 +60,9 @@ app.get('/ip', reqIP (options), function(req, res, next) {
 ```
 
 `options`: attached to `req[key]`
+
 1. `real`: real ip ,default `clientIP`.
+
 2. `forward`: proxy ip list, default `forwardedIPList`
+
 3. wait...
