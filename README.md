@@ -10,7 +10,7 @@ to use this, you can get the client real ip and then proxy ip list
 
 var express = require('express');
 
-var reqIP = require('req-ip');
+var reqIP = require('x-real-ip');
 
 var app = express();
 
@@ -48,7 +48,7 @@ console.log(ip);   // ::ffff:192.168.3.3, ::ffff:192.168.3.7
 ##### mw(options)
 as a middleware, it can get the both above
 ```js
-var reqIP = require('req-ip');
+var reqIP = require('x-real-ip');
 var options = { real: 'r', forward: 'f'};
 app.get('/ip', reqIP (options), function(req, res, next) {
     req[options.real];  // 

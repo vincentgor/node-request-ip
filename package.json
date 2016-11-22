@@ -1,5 +1,5 @@
 {
-  "name": "req-ip",
+  "name": "x-real-ip",
   "version": "0.0.1",
   "description": "real client ip",
   "main": "index.js",
