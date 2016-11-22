@@ -4,6 +4,9 @@ real client ip
 ### what it can do
 to use this, you can get the client real ip and then proxy ip list
 
+### future
+support that you can configure whether use proxy server or not
+
 ### such as an example
 ```js
 'use strict';
