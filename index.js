@@ -17,10 +17,12 @@ function getXForwardedFor(req) {
 function mw(options) {
 
 	options = options || {};
-	var key = options.key || 'clientIP';
+	var real = options.real || 'clientIP';
+	var forward = options.forward || 'forwardedIPList';
 
 	return function (req, res, next) {
-		req[key] = getXRealIP(req);
+		req[real] = getXRealIP(req);
+		req[forward] = getXForwardedFor(req);
 		next();
 	}
 
